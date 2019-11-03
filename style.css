@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,400,700');
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #eaecee;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+}
+
+.header {
+	height: 100px;
+	background-color: #fff;
+}
+
+.footer {
+	height: 100px;
+	background-color: #eaecee;
+}
+
+.container {
+	max-width: 1350px;
+	margin: 0 auto;
+}
+ /*  контейнер в карточке */
+
+.container1 {
+	max-width: 1350px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.logo {
+	margin: 10px 0px 0px 25px;
+	float: left;
+}
+ /*  меню в шапке */
+.menu {
+	float: right;
+	display: flex;
+	list-style-type: none;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+
+ /*  ссылки в меню в шапке */
+.menu a {
+	font-size: 18px;
+	text-decoration: none;
+	color: #74a3c7;
+	padding: 10px 13px;
+}
+
+ /*  эффект наведения в меню в шапке */
+.menu a:hover {
+	color: #212121;
+}
+
+ /*  в карточке */
+.sidebar {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	width: 12%;
+	margin: 40px auto;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+}
+
+ /*  в карточке */
+.new {
+display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.plate {
+	margin: 40px auto;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+}
+
+ /*  в карточке */
+.plate1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 40px auto;
+	background-color: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+	width: 81%;
+}
+
+/*  в карточке на подложке осн. информация */ 
+.education {
+	width: 24%;
+	text-align: center;
+}
+ /*  в карточке в сайдбаре */
+.item1 {
+	margin: 5px auto;
+	text-align: center;
+}
+
+.item {
+	margin: 25px;
+	text-align: center;
+	width: 28%;
+}
+
+/*  в карточке в сайдбаре */
+.name1 {
+	margin: 3px auto;
+	font-size: 11px;
+}
+
+.name {
+	margin: 10px 0 5px;
+	font-size: 16px;
+}
+ /*  в карточке в сайдбаре */           
+.description1 {
+	font-size: 10px;
+	color: #74a3c7;
+}
+
+.description {
+	font-size: 15px;
+	color: #74a3c7;
+}
+
+ /*  в карточке */
+.value {
+	font-size: 40px;
+	color: #9299a2;
+}
+
+ /*  в карточке */
+
+.title {
+	font-size: 25px;
+
+}
+
+/*  в карточке на подложке осн. информация */ 
+.description3 {
+	font-size: 15px;
+}
+
+/*  в карточке на подложке осн. информация */ 
+.name3 {
+	margin: 10px 0 5px;
+	font-size: 19px;
+}
+
+/*  в карточке на подложке осн. информация */ 
+.block1 {
+	background-color: hsla(216,5%,79%,.5);
+	border-radius: 8px;
+	padding: 10px 5px;
+	width: 22%;
+	
+}
+
+ /*  в карточке */
+
+.info {
+	width: 710px;
+	height: 550px;
+	margin: 0 0 10px 60px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.signature {
+	text-align: center;
+	color: #9299a2;
+}
+.product {
+	border-radius: 100px;
+	/* Радиус скругления */
+	border: 3px solid transparent;
+	/* Параметры рамки */
+	box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+}
+
+ /*  в карточке */
+.product3 {
+	border-radius: 100px;
+	/* Радиус скругления */
+	border: 3px solid #FFD700;
+	/* Параметры рамки */
+	box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
+	display: block;
+	margin: 0 auto;
+	
+}
+
+.product:hover {
+	border: 3px solid #FFD700;
+}
+
+.compliance {
+	font-size: 30px;
+	text-align: center;
+}
